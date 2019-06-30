@@ -1,0 +1,109 @@
+body {
+    color: #D8DAD3;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.box {
+    max-width: 45rem;
+    text-align: center;
+    background-image: url("../img/leaf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cart {
+    width: 30%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+h1.icon {
+    font-size: 10rem;
+    margin-bottom: 0;
+}
+
+/* main content */
+main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+input {
+    padding-left: 1rem;
+    line-height: 2rem;
+    margin-top: 1.5rem
+}
+
+button {
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    background-color: #A4C2A5;
+    border: none;
+    color: #F1F2EB;
+}
+
+button:hover {
+    background-color: #D8DAD3;
+    color: #514F59;
+}
+
+#list {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+#list li:before {
+    content: ">";
+    margin-right: 1rem;
+}
+
+#list li:first-child {
+    border: none;
+}
+
+#list li {
+    line-height: 2rem;
+    border-top: 1px solid #D8DAD3;
+}
+
+a,
+a:link,
+a:visited {
+    color: #D8DAD3;
+}
+
+a:active,
+a:hover {
+    color: #A4C2A5;
+}
+
+footer {
+    border-top: 0.5px inset #D8DAD3;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
